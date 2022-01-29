@@ -1,0 +1,54 @@
+Python Basic Assignments- assignment_4
+
+1. What exactly is []?
+A: It's an empty list
+
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+A: spam.insert(2,'hello')
+
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+A: spam[3]='d'
+
+4. What is the value of spam[-1]?
+A: 'd'
+
+5. What is the value of spam[:2]?
+A: ['a','b']
+
+Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+A: 1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+A: [3.14,'cat',11,'cat',True,99]
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+A: [3.14,11,'cat',True]
+
+9. What are the list concatenation and list replication operators?
+A: list concatenation is + and list replication is *
+
+10. What is difference between the list methods append() and insert()?
+A: append() inserts a new value at the end of the list and insert() inserts a new value at a specified index
+
+11. What are the two methods for removing items from a list?
+A: pop() and remove()
+
+12. Describe how list values and string values are identical.
+A: They both can be indexed
+
+13. What's the difference between tuples and lists?
+A: tuples are immutable while lists are mutable
+
+14. How do you type a tuple value that only contains the integer 42?
+A: (42)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+A: tuple([1,2,3]) list((1,2,3))
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+A: They have references to the list values rather than the list value themselves.
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+
