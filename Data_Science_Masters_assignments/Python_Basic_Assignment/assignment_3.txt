@@ -1,0 +1,46 @@
+Python Basic Assignments - Assignment_3
+
+1. Why are functions advantageous to have in your programs?
+A: They reduce the need to duplicate code. They also make programs shorter and easier to read.
+
+2. When does the code in a function run: when it's specified or when it's called?
+A: When its called
+
+3. What statement creates a function?
+A: def
+
+4. What is the difference between a function and a function call?
+A: Function is a procedure and function call is using the function to acheive a certain task.
+
+5. How many global scopes are there in a Python program? How many local scopes?
+A: There is one Global python scope in python and there can be inifinite local scopes.
+
+6. What happens to variables in a local scope when the function call returns?
+A: The local variables are destroyed
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+A: When return is called in a function, the function ends. The function then returns the return value.
+    Yes it is possible to have a return value in an expressions
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+A: It returns None
+
+9. How do you make a function variable refer to the global variable?
+A: Use global keyword
+
+10. What is the data type of None?
+A: NoneType
+
+11. What does the sentence import areallyourpetsnamederic do?
+A: I can access the classes and functions from the areallyourpetsnamederic file if its in my directory.
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+A: spam.bacon()
+
+13. What can you do to save a programme from crashing if it encounters an error?
+A: To deal with run time errors, we can use exception handling
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+A: If the code inside the try block encounters a runtime error, it will execute the code in the except 
+   block. 
+
